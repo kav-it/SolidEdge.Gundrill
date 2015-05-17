@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gundrill.Plugin", "Gundrill.Plugin\Gundrill.Plugin.csproj", "{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gundrill.Installer", "Gundrill.Installer\Gundrill.Installer.csproj", "{B869AEA7-084A-4588-B6C3-CE7C683F03D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2} = {A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B43E322E-8887-4DBF-8D3C-D3A7A0DD339F}"
+	ProjectSection(SolutionItems) = preProject
+		Version\Version.cs = Version\Version.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A88F9AA2-ACB4-4D04-A7BB-3C25CD1AF6F2}.Release|x86.ActiveCfg = Release|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B869AEA7-084A-4588-B6C3-CE7C683F03D2}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

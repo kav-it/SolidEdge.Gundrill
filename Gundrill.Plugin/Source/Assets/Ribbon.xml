@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ribbon xmlns="http://github.com/SolidEdgeCommunity/SolidEdge/Ribbon">
+    <tab name="Gun drill">
+        <group name="Основное">
+            <button id="0" size="large" label="Создать" screentip="Создать" supertip="Мастер создания нового сверла" imageId="100" />
+        </group>
+    </tab>
+</ribbon>
